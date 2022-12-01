@@ -1,7 +1,7 @@
 const {Schema ,model}= require ("mongoose");
 const reservaSchema = new Schema({
     fentrada:Date,
-    fsalid:Date,
+    fsalida:Date,
     cantidadnoches :Number,
     freserva: Date,
     totalreserva:Number,

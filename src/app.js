@@ -11,7 +11,7 @@ require('dotenv').config();
 conexionDB();
 //configuraciones
 app.set("name","api-hotelia");
-app.set("port",process.env.PORT||3000);
+app.set("port",process.env.PORT||3200);
 app.set("host",process.env.HOST||'localhost');
 //middleware
 app.use(express.json());

@@ -18,5 +18,7 @@ const habitacionSchema = new Schema({
         ref:'Reservas'
     }]
 })
-
+habitacionSchema.methods.setImg = function set(filename){
+    this.img = `/public/${filename}`;
+}
 module.exports = model("Habitacion",habitacionSchema);
